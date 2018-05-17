@@ -31,7 +31,7 @@ public class BallController : MonoBehaviour
         m_rb2d.AddForce(m_power * m_powerScale);    // 力を加えてボールを動かす
         GameObject go = GameObject.Find("ScoreText"); // ScoreText という名前のオブジェクトを探してとっておく
         m_scoreText = go.GetComponent<Text>();  // ScoreText という名前のオブジェクトから Text を取り出す
-        m_scoreText.text = m_score.ToString();  // ToString() を使って整数を文字列に変換する
         m_score = 0;    // スコアをリセットする
+        m_scoreText.text = m_score.ToString();  // ToString() を使って整数を文字列に変換する
     }
 }
