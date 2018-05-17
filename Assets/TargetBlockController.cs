@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class TargetBlockController : MonoBehaviour
 {
+    public int m_score = 200;   // このブロックが壊れた時にこのスコアが入る。public なので Inspector から設定できる。
 
     void Start()
     {
