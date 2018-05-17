@@ -21,6 +21,12 @@ public class BallController : MonoBehaviour
             m_score += target.m_score;
             m_scoreText.text = m_score.ToString();
         }
+
+        // ボールが水平に飛ぶようになってしまったら調整する（強引）
+        if (Vector2.Angle(Vector2.right, m_rb2d.velocity) < 20f)
+        {
+            m_rb2d.AddForce(Vector2.up * (m_rb2d.velocity.y >= 0 ? 1 : -1) * 15);
+        }
     }
 
     /// <summary>元々 Start() にあった内容はここに移動する。</summary>

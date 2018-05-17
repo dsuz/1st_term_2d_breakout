@@ -3910,7 +3910,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12147adfbcc0fe04cb80a2c2798e155f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_power: {x: -1, y: 1}
+  m_power: {x: -1, y: 3}
   m_powerScale: 100
 --- !u!58 &1724811437
 CircleCollider2D:
