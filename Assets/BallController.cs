@@ -15,8 +15,9 @@ public class BallController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        TargetBlockController target = collision.gameObject.GetComponent<TargetBlockController>();  // 衝突相手がら「ぶつかったら壊れるブロック」の取得を試みる
-        if (target != null) // 衝突相手が「ぶつかったら壊れるブロック」だったら target にはコンポーネントが取得できる。そうでない場合は null になる
+        // 衝突相手から「ぶつかったら壊れるブロック」の取得を試みる
+        TargetBlockController target = collision.gameObject.GetComponent<TargetBlockController>();
+        if (target != null) // 衝突相手が「ぶつかったら壊れるブロック」なら target にはコンポーネントが取得できる。そうでない場合は null になる
         {
             m_score += target.m_score;
             m_scoreText.text = m_score.ToString();

@@ -17,14 +17,14 @@ public class GameController : MonoBehaviour
     /// <summary>ボールの y 座標がこれより小さくなったらゲームオーバー</summary>
     float m_bottomBorder = -10f;
 
-	void Start ()
+    void Start()
     {
         InitializeGame();
     }
-	
-	void Update ()
+
+    void Update()
     {
-		if (m_isInGame) // 今ゲーム中の場合は
+        if (m_isInGame) // 今ゲーム中の場合は
         {
             if (m_ball.transform.position.y < m_bottomBorder)   // ボールの場所を確認してあまりにも下だったらゲームオーバー
             {
@@ -38,7 +38,7 @@ public class GameController : MonoBehaviour
                 StartGame();
             }
         }
-	}
+    }
 
     /// <summary>初期化する</summary>
     void InitializeGame()
