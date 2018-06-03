@@ -63,6 +63,7 @@ public class GameController : MonoBehaviour
     /// <summary>ゲームオーバーにする</summary>
     void EndGame()
     {
+        GetComponent<AudioSource>().Play(); // 音を鳴らす
         m_isInGame = false; // フラグをゲーム中ではない状態にする
         m_console.text = "Game Over\r\nHit Enter To Restart";   // メッセージを表示する
     }
