@@ -4116,6 +4116,52 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1001 &2061622029
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4984444919629002, guid: 9a4544bfe78bd744d9e52b51b959224f, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 4984444919629002, guid: 9a4544bfe78bd744d9e52b51b959224f, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 4.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4984444919629002, guid: 9a4544bfe78bd744d9e52b51b959224f, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4984444919629002, guid: 9a4544bfe78bd744d9e52b51b959224f, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4984444919629002, guid: 9a4544bfe78bd744d9e52b51b959224f, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4984444919629002, guid: 9a4544bfe78bd744d9e52b51b959224f, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4984444919629002, guid: 9a4544bfe78bd744d9e52b51b959224f, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4984444919629002, guid: 9a4544bfe78bd744d9e52b51b959224f, type: 2}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1837669516272958, guid: 9a4544bfe78bd744d9e52b51b959224f, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 9a4544bfe78bd744d9e52b51b959224f, type: 2}
+  m_IsPrefabParent: 0
 --- !u!4 &2093247254 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4736651322332764, guid: 28d5eaf9ce9294c4f8aa4c763549cd76,
